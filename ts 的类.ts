@@ -38,7 +38,7 @@ class Snake extends Animal {
 
 class Horse extends Animal {//父类中的属性和方法 子类中必须含有 但是子类可以对父类函数进行拓展
 	
-	constructor(name:string) {//每一个基于基类的子类
+	constructor(name:string) { //每一个基于基类的子类
 		super(name);
 	}
 	move(distanceInMeters = 45){
